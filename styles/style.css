@@ -1,0 +1,198 @@
+
+    
+
+body{
+    background: rgb(4, 77, 77);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pic{
+
+        width: 100px;
+        height: 150px;
+        border-radius: 50%;
+        position: relative;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 15px;
+}
+
+.Name{
+    /*background: rgb(146, 128, 128);*/
+    height: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.Contacts{
+    /*background: rgb(58, 100, 67);*/
+    height: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.Contacts ul{
+    margin-top: -15px;
+    padding-top: 15px;
+}
+
+
+.Contacts ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+h2{
+    color: antiquewhite;
+    text-align: center;
+    /*margin-left: 50px;*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    color: rgb(253, 221, 180);
+    text-align: center;
+    /*margin-left: 50px;*/ 
+}
+
+.mail, .phone, .sms{
+    height: 100%;
+    padding-right: 25px;
+    margin-right: 10px;
+    float: left;      
+}
+
+.mail { padding-left: 42px;  }
+.phone { padding-left: 42px; }
+.sms { padding-left: 42px; }
+
+
+.phone i, .sms i, .mail i{
+    padding: 10px 0px;
+    color: rgb(26, 146, 36);
+}
+
+.mail a , .phone a, .sms a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.topwrap{
+    position: relative;
+    
+}
+
+.topwrap img{
+    
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: -1;    
+}
+
+
+.top{
+    /*background: rgb(14, 14, 88);*/
+    height: 50vh;
+    position: relative;     
+}
+
+.down{
+    background: rgb(14, 14, 88);
+    width: 100%;
+    height: 50vh;
+    margin-left: 0px;
+    position: relative; 
+}
+    
+
+.section1{
+    width: 32%;
+    height: 90%;
+    margin: 2px;
+    background: rgb(11, 11, 85);
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    box-shadow:  10px 10px 10px rgb(229, 229, 240);
+    display: block;
+    overflow: scroll;
+}
+
+.section2{
+    width: 32%;
+    height: 90%;
+    margin: 2px;
+    background: rgb(11, 11, 85);
+    position: relative;
+    float: left;
+    box-shadow:  10px 10px 10px rgb(229, 229, 240);
+    display: block;
+    overflow: scroll;
+}
+
+.section3{
+    width: 34%;
+    height: 90%;
+    margin: 2px;
+    background: rgb(11, 11, 85);
+    position: relative;
+    float: left;
+    box-shadow:  10px 10px 10px rgb(229, 229, 240);
+    
+}
+
+
+.quote{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 90%;
+    padding-top: 10px;
+    background: rgb(29, 22, 94);
+    border-radius: 10%;
+}
+
+.info{
+    /*background: yellow;*/
+    width: 200px;
+    height: 40px; 
+    margin-left: 30%; 
+    border-radius: 20%;
+}
+
+.info i{
+    color: white;
+    border: 1px solid black;
+    border-radius: 30%;
+    background: rgb(26, 14, 138);
+    margin-left: 5px;
+    padding: 8px;
+    font-size: larger;
+}
+
+
+.info a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+@media screen  and (max-width: 720px) {
+
+    body{background: rgb(70, 70, 23);}
+    .section1{width: 95%; height: 90%; margin-left: 0px;}
+    .section2{width: 95%; height: 90%; margin-left: 0px;}
+    .section3{width: 95%; height: 90%; margin-left: 0px;}
+    .top, .down{margin-left: 0px;}
+    .pic{height: 200px; margin-top: 15px;}
+    .Name{height: 100px; margin-left: 20%; margin-right: 20%; }
+    .Contacts{margin-left: 20%; margin-right: 20%;}
+    
+
+    
+    }
